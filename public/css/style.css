@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Red+Hat+Display:900&display=swap');
+
+
+.animation {
+  font-size: 5vw;
+  line-height: 8vw;
+  margin: 0;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 900;
+  background: url('../img/welcome-img.jpg');
+  background-size: 40%;
+  background-position: 50% 50%;
+  -webkit-background-clip: text;
+  color: rgba(0,0,0,0.08);
+  animation: zoomout 10s ease 500ms forwards;
+}
+
+@keyframes zoomout {
+  from {
+    background-size: 40%;
+  }
+  to {
+    background-size: 10%;
+  }
+}
+
+
+/* blogs */
+@import url(//fonts.googleapis.com/css?family=Abril+Fatface|Droid+Serif:400,700,400italic,700italic);
+html,body{
+  height:100%
+}
+.body {
+  font-family: 'Droid Serif', serif;
+}
+
+
+.dots{
+  position: absolute;
+width: 14.18px;
+height: 14.47px;
+left: 909.18px;
+top: 0px;
+
+background: #D73F3B;
+}
