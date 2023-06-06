@@ -23,7 +23,7 @@ Generating a New Key for the Project:
 5. The API route should handle the request and generate a new key for the project.
 6. Once the request is successful, the new key will be returned in the response.
 7. Copy the generated key and use it in the project.
-8. After generating a new key, open the `public/js/application/application-create.js` and `resources/views/dashboard.blade.php` files in the project.
+8. After generating a new key, open the `public/js/application/application-create.js`, `public/js/application/application-table.js` and `resources/views/dashboard.blade.php` files in the project.
 9. Look for a variable or configuration section that requires the key.
 10. Replace the existing value with the newly generated key.
 11. Save the changes to the file.
